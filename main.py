@@ -1,6 +1,4 @@
 import os
-import sys
-
 
 def add_entry(entry):
     f = open(os.devnull, 'w')
@@ -20,6 +18,6 @@ def prompt():
     elif mode == 'a':
         entry = input()
         add_entry(entry)
-        print(input)
+        print(entry)
 
 if __name__ == '__main__': main()
