@@ -1,2 +1,9 @@
 # GRAB-db
-The only database that stores your data in safe place. 37x safer than block chain. 100% more environmentally friendly.
+
+## Step One: Give Grab-DB your data
+
+![grab](grab-db.png)
+
+## Step Two: Grab-DB Stores your data safely
+
+![grab2](grabdb2.png)
