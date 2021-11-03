@@ -2,14 +2,16 @@ import os
 
 def add_entry(entry):
     f = open(os.devnull, 'w')
-    f.write(entry)
+    f.write("secret"+encrypt(entry))
+
+encrypt = lambda password: password = "*******"
 
 def main():
     while True:
         prompt()
 
 def prompt():
-    mode = input("input:")
+    mode = input("Input that isn't my password:")
 
     if mode == 'q':
         query = input()
